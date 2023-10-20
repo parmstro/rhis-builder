@@ -1,0 +1,15 @@
+[allowlist]
+  description = "Global Allowlist"
+
+  # Ignore based on any subset of the file path
+  paths = [
+    # Ignore all example certs
+    '''\/_SAMPLE.yml$''',
+                
+  ]
+        
+  # Ignore based on any subset of the line
+  regexes = [
+    # Ignore lines containing pickles
+    '''notsecret''',
+  ]
