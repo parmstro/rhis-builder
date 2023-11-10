@@ -85,7 +85,7 @@
     delegate_to: "{{ host.fqdn }}"
 
   - name: Create request
-    ansible.builtin.command: "openssl req -new -key {{ host.ssl_key_path }} -out {{ host.ssl_csr_path }} -subj \"/C={{ csr_countryName }}/ST={{ csr_stateOrProvinceName }}/L={{ csr_localityName }}/O={{ csr_organizationName }}/OU={{ csr_organizationUnitName }}/CN={{ host.fqdn }}/subjectAltName=DNS.1={{ host.fqdn }}\""
+    ansible.builtin.command: "openssl req -new -key {{ host.ssl_key_path }} -out {{ host.ssl_csr_path }} -subj \"/C={{ csr_country_name }}/ST={{ csr_state_or_province_name }}/L={{ csr_locality_name }}/O={{ csr_organization_name }}/OU={{ csr_organization_unit_name }}/CN={{ host.fqdn }}/subjectAltName=DNS.1={{ host.fqdn }}\""
     delegate_to: "{{ host.fqdn }}"
 
   - name: Generate the certificate for the service

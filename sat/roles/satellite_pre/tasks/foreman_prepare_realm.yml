@@ -58,11 +58,11 @@
     ipaadmin_principal: "{{ ipa_admin_principal }}"
     ipaadmin_password: "{{ ipa_admin_password }}"
     name: "{{ ipa_dns_forward_zone }}"
-    update_policy: "{{ foreman_proxy_BIND_update_policy }}"
+    update_policy: "{{ foreman_proxy_bind_update_policy }}"
 
 - name: "Set up IdM reverse lookup zone to allow foreman proxy to update DNS"
   redhat.rhel_idm.ipadnszone:
     ipaadmin_principal: "{{ ipa_admin_principal }}"
     ipaadmin_password: "{{ ipa_admin_password }}"
     name: "{{ ipa_dns_reverse_zone }}"
-    update_policy: "{{ foreman_proxy_BIND_update_policy }}"
+    update_policy: "{{ foreman_proxy_bind_update_policy }}"

@@ -77,7 +77,7 @@
   - ansible.builtin.command: "openssl rsa -in {{ ssl_private_key_pem_path }} -out {{ sat_ssl_key_path }} -passin file:/{{ passfile }}"
 
   - name: Create request
-    ansible.builtin.command: "openssl req -new -key {{ sat_ssl_key_path }} -out {{ sat_ssl_csr_path }} -subj \"/C={{ csr_countryName }}/ST={{ csr_stateOrProvinceName }}/L={{ csr_localityName }}/O={{ csr_organizationName }}/OU={{ csr_organizationUnitName }}/CN={{ ansible_fqdn }}/subjectAltName=DNS.1={{ ansible_fqdn }}\""
+    ansible.builtin.command: "openssl req -new -key {{ sat_ssl_key_path }} -out {{ sat_ssl_csr_path }} -subj \"/C={{ csr_country_name }}/ST={{ csr_state_or_province_name }}/L={{ csr_locality_name }}/O={{ csr_organization_name }}/OU={{ csr_organization_unit_name }}/CN={{ ansible_fqdn }}/subjectAltName=DNS.1={{ ansible_fqdn }}\""
 
   - name: Generate the certificate for the service
     ansible.builtin.shell: "echo '{{ ipa_admin_password }}' | kinit {{ ipa_admin_principal }}; ipa cert-request --add --principal={{ target_service }} {{ sat_ssl_csr_path }} --certificate-out={{ sat_ssl_crt_path }}"

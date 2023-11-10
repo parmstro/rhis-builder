@@ -55,11 +55,11 @@ dns_forward_zones:
 
 dns_update_zones:
   - name: "example.ca"
-    foreman_proxy_BIND_update_policy: 'grant EXAMPLE.CA krb5-self * A; grant EXAMPLE.CA krb5-self * AAAA; grant EXAMPLE.CA krb5-self * SSHFP; grant realm-capsule\@EXAMPLE.CA wildcard * ANY;'
+    foreman_proxy_bind_update_policy: 'grant EXAMPLE.CA krb5-self * A; grant EXAMPLE.CA krb5-self * AAAA; grant EXAMPLE.CA krb5-self * SSHFP; grant realm-capsule\@EXAMPLE.CA wildcard * ANY;'
   - name: "168.192.in-addr.arpa"
-    foreman_proxy_BIND_update_policy: 'grant EXAMPLE.CA krb5-subdomain 168.192.in-addr.arpa. PTR; grant realm-capsule\@EXAMPLE.CA wildcard * ANY;'
+    foreman_proxy_bind_update_policy: 'grant EXAMPLE.CA krb5-subdomain 168.192.in-addr.arpa. PTR; grant realm-capsule\@EXAMPLE.CA wildcard * ANY;'
   - name: "140.168.192.in-addr.arpa"
-    foreman_proxy_BIND_update_policy: 'grant EXAMPLE.CA krb5-subdomain 254.168.192.in-addr.arpa. PTR; grant realm-capsule\@EXAMPLE.CA wildcard * ANY;'
+    foreman_proxy_bind_update_policy: 'grant EXAMPLE.CA krb5-subdomain 254.168.192.in-addr.arpa. PTR; grant realm-capsule\@EXAMPLE.CA wildcard * ANY;'
 
 idm_user_groups:
   - { name: "satgroup-administrator", desc: "Satellite Server Administrators" }
