@@ -12,7 +12,7 @@ collections:
   - name: "ansible.utils"
   - name: "azure.azcollection"
   - name: "community.general"
-  - name: "community.vmware"
+  - name: "vmware.vmware"
   - name: "community.aws"
   - name: "containers.podman"
   - name: "redhat.rhel_idm"
