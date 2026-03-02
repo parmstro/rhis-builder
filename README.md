@@ -1,14 +1,21 @@
-# rhis-builder-provisioner
+# Welcome to rhis-builder
+
+The rhis-builder project is a set of tooling and configuration designed to build, manage and maintain an opinionated model of a hybrid cloud Red Hat Enterprise Linux environment using infrastructure as code and gitOps with traditional VM and container workloads. You can start where you are, or you can build from scratch. 
+
+This is the place to start. 
+[What the heck is a Red Hat Infrastructure Standard environment?](https://github.com/parmstro/rhis-builder/wiki)
 
 
-Use the container!
+The next thing...
+Get the [inventory sample](https://github.com/parmstro/rhis-builder-inventory) and use the provisioner container!
 
-In an effort to streamline building and using an RHIS environment, we have moved provisioner into a container. This has resulted in consumers getting to a working environment **way** faster. The rhis-provisioner-9 container build is based on RHEL UBI 9 and has all of the code dependencies and all of the ansible code for all of the rhis-builder projects baked in, plus has the example.ca sample configuration for the whole environment. We are working to make "Life is Better with RHIS" a reality. 
+The inventory repository contains our sample environment and a script that will allow you to quick, very basic configuration changes to generate your own custom inventory. Convenient scripts are also created for you to pull and launch the provisioner container to connect to your inventory and start provisioning.
 
-You will soon be able to pull the rhis-provisioner-9 container from an official Red Hat repository. In the meantime please access to the [rhis-provisioner-container](https://github.com/parmstro/rhis-provisioner-container) repository to build a container from source.
+See the wiki to review the bootstrap scenarios and the instances that you need to get started. What you need at a minimum is listed below.
+
+The rhis-provisioner-9 container build is based on RHEL UBI 9 and has all of the binary dependencies and all of the ansible code for all of the rhis-builder projects baked in. This has resulted in consumers getting to a working environment **way** faster. We are working to make "Life is Better with RHIS" a reality. 
 
 There is still a small bit of work to get the provisioner ready to deploy the rhis environment.
-This project is still valuable to set up the inventory project, git variables and local hosts entries to make it easier to run the container mode.
 
 ***
 
@@ -20,8 +27,11 @@ If you haven't been there yet, please visit the [rhis-builder-provisioner wiki](
 See [rhis-builder-inventory](https://github.com/parmstro/rhis-builder-inventory) repo for all sample configurations and secrets definitions.
 
 ## What you will need at a minimum:
-- a plan! What sort of environment do you want to build? For a sample - example.ca - see the wiki
-VMs, Baremetal or cloud instances for:
+A plan! 
+
+What sort of environment do you want to build? For our sample - example.ca - see the wiki. Literally, you can build a hybrid multicloud deployment.
+
+Your best experience will be with 3 systems. They can be VMs, Baremetal or cloud instances for:
 - a node to run the rhis-provisioner-9 container
 - a node for identity management
 - a node for satellite
@@ -32,6 +42,6 @@ That gets you off the ground, to get flying you will need:
 - a supported cloud environment, or 
 - all of the above
 
-to build out the rest of your architecture
+to build out the rest of your architecture...
 
 ## See the [Wiki for Instructions on getting started](https://github.com/parmstro/rhis-builder-provisioner/wiki)

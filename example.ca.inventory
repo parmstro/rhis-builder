@@ -1,6 +1,0 @@
-[provisioner]
-provisioner.example.ca
-
-[bootstrap]
-idm.example.ca
-satellite.example.ca
