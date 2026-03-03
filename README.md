@@ -15,13 +15,6 @@ See the wiki to review the bootstrap scenarios and the instances that you need t
 
 The rhis-provisioner-9 container build is based on RHEL UBI 9 and has all of the binary dependencies and all of the ansible code for all of the rhis-builder projects baked in. This has resulted in consumers getting to a working environment **way** faster. We are working to make "Life is Better with RHIS" a reality. 
 
-There is still a small bit of work to get the provisioner ready to deploy the rhis environment.
-
-***
-
-#### Helping out
-I know that most of you have experience with these things, but we also work with people with less experience. So, please bear with us if a lot of activities that you know well are spelled out. If you have any comments, tips, tricks or suggestions to add to the documentation or README.md file, PRs are greatly appreciated. Let's share the wealth!
-
 If you haven't been there yet, please visit the [rhis-builder-provisioner wiki](https://github.com/parmstro/rhis-builder-provisioner/wiki) first
 
 See [rhis-builder-inventory](https://github.com/parmstro/rhis-builder-inventory) repo for all sample configurations and secrets definitions.
@@ -45,3 +38,7 @@ That gets you off the ground, to get flying you will need:
 to build out the rest of your architecture...
 
 ## See the [Wiki for Instructions on getting started](https://github.com/parmstro/rhis-builder-provisioner/wiki)
+
+#### Helping out
+I know that most of you have experience with these things, but we also work with people with less experience. So, please bear with us if a lot of activities that you know well are spelled out. If you have any comments, tips, tricks or suggestions to add to the documentation or README.md file, PRs are greatly appreciated. Let's share the wealth!
+
