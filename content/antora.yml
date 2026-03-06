@@ -1,0 +1,9 @@
+---
+name: modules
+version: main
+
+asciidoc:
+  attributes:
+    lab_name: "Red Hat Infrastructure Standard Builder (rhis-builder)"
+    release-version: main
+    page-pagination: true
