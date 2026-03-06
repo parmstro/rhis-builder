@@ -1,0 +1,11 @@
+## Module 9 - Testing the RHIS environment
+
+In this module we prove out the environment that we have built.
+We examine sample users and their login across the integrated environment. 
+We verify control by adding users and modifying configuration.
+We validate system builds, post provisioning configuration, content promotion, and compliance implementation, monitoring and remediation.
+We run ad-hoc ansible automation platform jobs.
+We launch, monitor and respond to notifications for major process workflows within RHIS
+
+#### Prev: xref:08-troubleshooting.adoc[Troubleshooting Deployment]
+#### Next: xref:10-next-steps.adoc[Understanding Next Steps]

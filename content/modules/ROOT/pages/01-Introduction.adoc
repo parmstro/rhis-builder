@@ -32,7 +32,7 @@ This course builds on the foundation of learning developed through studying the 
 - Introducing the rhis-builder project
 - Review of the rhis-builder core repositories
 - Understanding the rhis-builder-inventory project
-- Preparing to deploy an RHIS environment
+- Setting up the Provisioner node
 - Customizing an rhis-builder-inventory repository for a target environment
 - Building an RHIS deployment using the rhis-provisioner container
 - Troubleshooting deployment issues
@@ -81,3 +81,6 @@ That gets you off the ground, to get flying you will need:
 - all of the above
 
 to build out the rest of your architecture...
+
+
+#### Next: xref:02-rhis-builder-project.adoc[Understanding the rhis-builder project]

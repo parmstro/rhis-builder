@@ -1,0 +1,8 @@
+## Module 2 - Understanding the rhis-builder project
+
+This modules discusses the origin and requirement for the rhis-builder project, its objectives, high level components, orchestration and future expansion.
+We will also discuss how to participate and get started developing with the project.
+
+
+#### Prev: xref:01-Introduction.adoc[Introduction]
+#### Next: xref:03-rhis-builder-repos.adoc[Understanding the rhis-builder repositories]

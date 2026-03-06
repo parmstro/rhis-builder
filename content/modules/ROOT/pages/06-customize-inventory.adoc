@@ -1,0 +1,15 @@
+## Module 6 - Customising the rhis-builder-inventory repository
+
+In this module we discover the inventory-basevars.yml file and modify it to create the configuration for our target domain. 
+We examine in detail the configuration that is created including:
+
+- Identity Management configuration like users, groups, sudo policy and hostbased access control policy
+- We will add users and groups to the configuration so that they will have access across the infrastructure
+- Satellite configuration like selected products, repositories, content views, activation keys and hostgroups
+- We will add a custom product to the configuration
+- We will investigate OpenSCAP content and add configuration for a pre-existing tailoring file
+- AAP All-in-one Configuration including credential types, credentials, projects, inventories and tempalates
+- We will add a template that will be used in a Satellite provisioning callback to AAP
+
+#### Prev: xref:05-rhis-builder-inventory.adoc[Understanding the rhis-builder-inventory repository]
+#### Next: xref:07-building-rhis.adoc[Building an RHIS environment]

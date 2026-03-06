@@ -1,0 +1,8 @@
+## Module 8 - Troubleshooting the RHIS build
+
+In this module we examine how to respond when things go wrong and how we can run individual roles and tasks within rhis-builder to modify configuration.
+We will look at logging configuration and behaviour.
+We will use helper scripts to diagnose problems in the build configuration and remeditate configuration errors.
+
+#### Prev: xref:07-building-rhis.adoc[Building an RHIS environment]
+#### Next: xref:09-testing-rhis.adoc[Testing RHIS]

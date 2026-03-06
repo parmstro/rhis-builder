@@ -1,0 +1,10 @@
+## Module 5 - Understanding the rhis-builder-inventory repository
+
+In this module we discover the details of the RHIS configuration. 
+We discuss the pattern of the rhis-builder-inventory repository, the contents of each of the repository folders, and the major RHIS components.
+We discuss in detail the vaulted variables files and their importance in the configuration and maintaining secrets.
+We discuss approaching individual component deployment vs. deploying RHIS as an integrated platform
+
+
+#### Prev: xref:04-prepare-to-deploy.adoc[Setting up the Provisioner node]
+#### Next: xref:06-customize-inventory.adoc[Customizing your inventory configuration]

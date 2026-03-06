@@ -1,0 +1,13 @@
+## Module 10 - Understanding Next Steps
+
+In this module we examine how we extend the RHIS environment.
+We discuss building cloud images, image mode systems, deploying containers, and more.
+We discuss building secure environments using Network Bound Disk Enryption, Trusted Platform Modules (Physical and Virtual).
+We discuss building disconnected environments and requirements.
+We discuss deploying additional Red Hat products like Red Hat Build of Keycloak and more...
+
+
+Please use the response form to rate this course and provide any feedback for improvement, bug reports, and kudos.
+
+#### Prev: xref:09-testing-rhis.adoc[Testing RHIS]
+#### Next: https://redhat.com/my-evaluation-form.html

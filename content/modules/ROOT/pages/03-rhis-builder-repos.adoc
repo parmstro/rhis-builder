@@ -1,0 +1,9 @@
+## Module 3 - Understanding the rhis-builder repositories
+
+This modules digs deeper into each of the major repositories that make up rhis-builder, what they do and how they are used in RHIS.
+We will also introduce some of the smaller repositories that extend RHIS.
+The extension repositories will be visited in detail in the Part 2 of the rhis-builder course
+
+
+#### Prev: xref:02-rhis-builder-project.adoc[Understanding the rhis-builder project]
+#### Next: xref:04-prepare-to-deploy.adoc[Setting up the Provisioner node]

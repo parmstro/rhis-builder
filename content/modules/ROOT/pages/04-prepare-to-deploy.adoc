@@ -1,0 +1,9 @@
+## Module 4 - Preparing to deploy RHIS
+
+In this module we configure the Provisioner node.
+We ensure the prerequisites for the Provisioner node are met.
+We pull the latest container from the container repository.
+We copy and configire the rhis-builder-inventory repository for use with our deployment.
+
+#### Prev: xref:03-rhis-builder-repos.adoc[Understanding the rhis-builder repositories]
+#### Next: xref:05-rhis-builder-inventory.adoc[Understanding the rhis-builer-inventory repository]

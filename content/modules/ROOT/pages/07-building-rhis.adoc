@@ -1,0 +1,15 @@
+## Module 7 - Building the RHIS environment
+
+In this module we see all our effort pay off. 
+We use the rhis-provisioner container to build the RHIS environment. 
+We discover the helper scripts within the container for launching and controlling our build.
+We discuss how we can alter the order of execution of the help scripts to control what is built and how we can utilize builtin capability in RHIS for more sophisticated builds.
+These more sophistcated builds are addressed in Part 2 of the rhis-builder course
+We build the following systems:
+
+- Identity Management Primary server with full configuration
+- Satellite Primary server with full integration with Identity Management and full feature configuration
+- Anisible Automation All-in-one server integrated with Identity Management and Satellite, with full configuration, including credentials, projects, templates and workflows for managing the RHIS environment, testing and promoting content, patching systems and building images.
+
+#### Prev: xref:06-customize-inventory.adoc[Customizing your inventory configuration]
+#### Next: xref:08-troubleshooting.adoc[Troubleshooting Deployment]
