@@ -1,8 +1,12 @@
 # Welcome to rhis-builder
 
-The rhis-builder project is a set of tooling and configuration designed to build, manage and maintain an opinionated model of a hybrid cloud Red Hat Enterprise Linux environment using infrastructure as code and gitOps with traditional VM and container workloads. You can start where you are, or you can build from scratch. 
+The rhis-builder project is a set of tooling and configuration designed to build, manage and maintain an opinionated model of a hybrid cloud Red Hat Enterprise Linux environment using infrastructure as code and gitOps methodologues with traditional VM and container workloads. You can start where you are, or you can build from scratch. 
 
-This is the place to start. 
+The code in this repository is content for a instructional course on using the rhis-builder project, its repositories and the rhis-provisioner container. If you are interested in a guided experience (recommended) with rhis-builder, please reach out to a Red Hatter to discuss or email/message one of the contributors to this project. We will help you get the support that you need to be successful. If you are a determined open source user and enjoy a challenge or want to contribute. Please! Read on! PRs are welcome on all our repositories.
+
+<hr>
+
+If you are diving into the pool...this is the place to start. 
 [What the heck is a Red Hat Infrastructure Standard environment?](https://github.com/parmstro/rhis-builder/wiki)
 
 
