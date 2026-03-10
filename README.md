@@ -1,8 +1,10 @@
 # Welcome to rhis-builder
 
-The rhis-builder project is a set of tooling and configuration designed to build, manage and maintain an opinionated model of a hybrid cloud Red Hat Enterprise Linux environment using infrastructure as code and gitOps methodologues with traditional VM and container workloads. You can start where you are, or you can build from scratch. 
+The rhis-builder project is a set of tooling and configuration designed to build, manage and maintain an opinionated model of a hybrid multi-cloud Red Hat Enterprise Linux environment using infrastructure as code and gitOps methodologies with traditional VM and container workloads. You can start where you are, or you can build from scratch. 
 
-The code in this repository is content for a instructional course on using the rhis-builder project, its repositories and the rhis-provisioner container. If you are interested in a guided experience (recommended) with rhis-builder, please reach out to a Red Hatter to discuss or email/message one of the contributors to this project. We will help you get the support that you need to be successful. If you are a determined open source user and enjoy a challenge or want to contribute. Please! Read on! PRs are welcome on all our repositories.
+The code in this repository is content for a instructional course on using the rhis-builder project, its repositories and the rhis-provisioner container. If you are interested in a guided experience with rhis-builder (recommended), please reach out to a Red Hatter to discuss your needs or email/message one of the contributors to this project. We will help you get the support that you need to be successful. 
+
+If you are a determined open source user and enjoy a challenge, you are looking for a deeper understanding or you want to contribute. Please! Dig in! Remember that PRs are welcome on all our repositories.
 
 <hr>
 
@@ -43,7 +45,8 @@ That gets you off the ground, to get flying you will need:
 
 to build out the rest of your architecture...
 
-## See the [Wiki for Instructions on getting started](https://github.com/parmstro/rhis-builder-provisioner/wiki)
+#### [Courseware for rhis-builder](https://github.com/parmstro/rhis-builder/blob/main/content/modules/ROOT/pages/01-Introduction.adoc)
+#### [Wiki on getting started](https://github.com/parmstro/rhis-builder-provisioner/wiki)
 
 #### Helping out
 I know that most of you have experience with these things, but we also work with people with less experience. So, please bear with us if a lot of activities that you know well are spelled out. If you have any comments, tips, tricks or suggestions to add to the documentation or README.md file, PRs are greatly appreciated. Let's share the wealth!
